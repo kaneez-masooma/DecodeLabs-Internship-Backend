@@ -1,18 +1,21 @@
 # Decode Labs - Task Manager Backend
 
 ## 📌 Project Overview
-This backend handles API functionality for the Task Manager application developed during Decode Labs internship.
+This is a simple backend for a Task Manager application created as part of Decode Labs internship assignment.
 
 ## 🎯 Features
-- Create tasks API
-- Get all tasks API
-- Delete tasks API
-- Update task status (complete/pending)
+- Add new tasks (POST API)
+- Get all tasks (GET API)
+- Delete tasks (DELETE API)
+- Update task status (PUT API)
 
 ## 🛠 Tech Stack
 - Node.js
 - Express.js
-- MongoDB (or in-memory array if simple)
+- JavaScript
+
+## 💾 Data Storage
+- In-memory array (no database used)
 
 ## 🚀 How to Run
 1. Install dependencies:
@@ -21,8 +24,8 @@ This backend handles API functionality for the Task Manager application develope
 2. Start server:
    node server.js
 
-3. Server runs on:
-   http://localhost:3000
+3. Open in browser / Postman:
+   http://localhost:5000
 
 ## 📡 API Endpoints
 - GET /tasks
